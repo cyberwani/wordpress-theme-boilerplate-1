@@ -1,0 +1,14 @@
+{
+    "name": "jdoubleu/wordpress-theme-boilerplate",
+    "description": "A boilerplate for a WordPress theme.",
+    "type": "wordpress-theme",
+    "license": "UNLICENSED",
+    "authors": [
+        {
+            "name": "Joshua Westerheide",
+            "email": "dev@jdoubleu.de"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
