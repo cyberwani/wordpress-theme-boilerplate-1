@@ -1,0 +1,23 @@
+{
+  "name": "wordpress-theme-boilerplate",
+  "description": "A boilerplate for a WordPress theme.",
+  "main": "index.js",
+  "authors": [
+    "Joshua Westerheide"
+  ],
+  "license": "UNLICENSED",
+  "keywords": [
+    "wordpress",
+    "theme",
+    "boilerplate"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

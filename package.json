@@ -13,5 +13,8 @@
     "boilerplate"
   ],
   "author": "Joshua Westerheide",
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "bower": "^1.7.9"
+  }
 }
