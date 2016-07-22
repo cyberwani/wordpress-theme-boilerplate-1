@@ -1,1 +1,6 @@
 # Project Level gitignore
+
+## Package Managers
+
+### NPM
+node_modules/
