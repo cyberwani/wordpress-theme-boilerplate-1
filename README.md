@@ -25,7 +25,9 @@ The bootstrap task for your next theme is very easy:
 * Pull the latest `master` from this repository and copy all files into your new project's folder **or**
 * Fork this repository
 
-Then you may follow this short todo list:
+Next step is to install all (development) dependencies: `composer install`.
+
+You may also follow this short todo list to change the package meta information:
 1. Update `composer.json`, `package.js` and `bower.json` with your details
 2. Maybe change the license
 3. Remove or edit the default `index.html` file
@@ -51,10 +53,10 @@ The `default` and `watch` gulp task will watch the files and compile them if a c
 You can lookup all SCSS linting rules here: [https://github.com/sasstools/sass-lint/tree/develop/docs/rules](https://github.com/sasstools/sass-lint/tree/develop/docs/rules).
 There are more detailed information about what is wrong.
 
-### Building
-There's already a configuration for the GitLab CI which will run lint's and builds the project 
-on pushes to refs like `vX.X.X` (e.g. version tags) and `env/*`. The building task also prepares 
-a downloadable artifact.
+### Workflow
+There's already a configuration for the GitLab CI. On every push it triggers a linting.
+On pushes to master it will build an artifact. The general workflow would be developing in a `develop` branch, 
+while merging into a `master` branch means a release.
 
 If you want to use another CI or compile it locally you can use the gulp `build` tasks defined in `gulpfile.js`.
 
