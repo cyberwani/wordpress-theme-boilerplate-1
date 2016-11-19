@@ -36,12 +36,15 @@ build:all:
    - master
   script:
     - gulp build
-    - find assets/dist/ -name *.map -type f -exec rm -f {} \;
   artifacts:
     name: "${PKG_NAME}_${CI_BUILD_REF}"
     paths:
       - assets/dist/
       - assets/vendor/
-      - ./*.html
+      - includes/
+      - languages/
+      - ./*.php
+      - style.css
+      - screenshot.*
       - humans.txt
       - LICENSE

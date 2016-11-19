@@ -24,7 +24,6 @@ branches:
 # Compile files
 script:
     - gulp build
-    - find assets/dist/ -name *.map -type f -exec rm -f {} \;
 
 # Build artifacts
 # uncomment the following lines to deploy artifacts
@@ -35,6 +34,10 @@ script:
 #    paths:
 #      - assets/dist/
 #      - assets/vendor/
-#      - ./*.html
+#      - includes/
+#      - languages/
+#      - ./*.php
+#      - style.css
+#      - screenshot.*
 #      - humans.txt
 #      - LICENSE
