@@ -1,14 +1,17 @@
-# Frontend Boilerplate
-This repository contains another simple but powerful boilerplate for creating frontend themes. 
-It sets up a powerful an assistive environment for development and to write in meta language to common web technologies.
+# WordPress Theme Boilerplate
+This repository contains another simple but powerful boilerplate for creating WordPress themes. 
+It is based on this [frontend-boilerplate](https://gitlab.com/jdoubleu/frontend-boilerplate). 
 
 ## Introduction
-It's a simple but powerful boilerplate for building frontend themes. However it is not perfect 
-at the time - and won't ever be - so I will update it continuously. You are welcome to open 
-an issue or creating a pull request.
+This boilerplate will be updated and extended by time. If you have suggestions or any need of change, you're welcome to open an issue.
+It aims to be a modular, easily extendable, easy to setup and system independent boilerplate which you can setup within seconds.
+
+As it is based on the [frontend-boilerplate](https://gitlab.com/jdoubleu/frontend-boilerplate) it includes many functionalities provided by it.
+Checkout this documentation as well.
 
 ## Requirements
 You need to have:
+* [`Composer`](https://getcomposer.org/) installed. You can use it system-wide or locally in your project. Checkout the documentation for more information.
 * [`Node.js`](https://nodejs.org/) (and `npm`) installed to your system (I tested it with `v6.2.1`)
 * [`Bower`](https://bower.io/) installed for vendor package management
 
@@ -23,42 +26,13 @@ The bootstrap task for your next theme is very easy:
 * Fork this repository
 
 Then you may follow this short todo list:
-1. Update `package.js` and `bower.json` with your details
+1. Update `composer.json`, `package.js` and `bower.json` with your details
 2. Maybe change the license
 3. Remove or edit the default `index.html` file
 4. Extend or remove the `humans.txt`
 5. Update the coding standard in `.editorconfig`, `.eslintrc` and `.sass-lint.yml` to your needs
 6. Remove the `CHANGELOG`
 7. Remove/Clear this readme file
-
-### Extending
-When you want to use additional frameworks you may add them with npm or bower. 
-While any package installed with bower is meant to be used in frontend npm packages are 
-meant for developing in first line.
- 
-For example if you want to include a jQuery plugin install it with bower
-```
-bower install --save <package>
-```
-and include it in your html's heads
-```
-<script src="assets/vendor/<package>/somelib.js"></script>
-```
-
-When you want to use a frontend framework (e.g. [Bootstrap](getbootstrap.com)) it's nice if 
-it provides sass files. You can require it with bower, to include some scripts if it has, and 
-pass the sass files to the sass compiler in the gulp task in `gulpfile.js`.
-```JavaScript
-	...
-	.pipe(sass({
-		includePaths: ['path/to/sass/files']
-	})
-	...
-```
-
-#### Merge Scripts together
-This is a feature and if you want all your scripts megred together into a single one (e.g. `all.js`) there is already a solution.
-Check out the [`merge-scripts`](https://gitlab.com/jdoubleu/frontend-boilerplate/tree/merge-scripts) branch and maybe change the name of the merged file in the [`gulpfile.js`](https://gitlab.com/jdoubleu/frontend-boilerplate/blob/merge-scripts/gulpfile.js).
 
 ### Development
 When you are coding just run
@@ -91,6 +65,7 @@ the background and help us every day.
 **Open Source ist awesome!**
 
 Tools used:
+* [Composer](https://getcomposer.org/)
 * [Node.js](https://nodejs.org/)
 * [Bower](https://bower.io/)
 * [Gulp](http://gulpjs.com/)
