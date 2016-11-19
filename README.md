@@ -29,11 +29,14 @@ Next step is to install all (development) dependencies: `composer install`.
 
 You may also follow this short todo list to change the package meta information:
 1. Update `composer.json`, `package.js` and `bower.json` with your details
-2. Maybe change the license
-3. Extend or remove the `humans.txt`
-4. Update the coding standard in `.editorconfig`, `.eslintrc` and `.sass-lint.yml` to your needs
-5. Remove the `CHANGELOG`
-6. Remove/Clear this readme file
+2. Update theme details in `style.css`
+3. Updated PHPDoc comments of `functions.php`, `includes/theme.php`
+4. Update global constants in `functions.php`
+5. Maybe change the license
+6. Extend or remove the `humans.txt`
+7. Update the coding standard in `.editorconfig`, `.eslintrc` and `.sass-lint.yml` to your needs
+8. Remove the `CHANGELOG`
+9. Remove/Clear this readme file
 
 ### Development
 When you are coding just run
