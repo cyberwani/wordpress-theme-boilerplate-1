@@ -1,0 +1,27 @@
+{
+    "name": "jdoubleu/wordpress-theme-boilerplate",
+    "description": "A WordPress theme boilerplate",
+    "type": "wordpress-theme",
+    "require": {
+        "php": "7.0.*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joshua Westerheide",
+            "email": "dev@jdoubleu.de"
+        }
+    ],
+	"homepage": "https://gitlab.com/jdoubleu/wordpress-theme-boilerplate#README",
+	"keywords": [
+		"wordpress",
+		"boilerplate",
+		"theme"
+	],
+	"support": {
+		"issues": "https://gitlab.com/jdoubleu/wordpress-theme-boilerplate/issues"
+	},
+	"scripts": {
+		"post-install-cmd": "npm install"
+	}
+}

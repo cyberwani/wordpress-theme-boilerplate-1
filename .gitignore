@@ -1,6 +1,7 @@
 # .gitignore project scope
 
 ## Package Repositories
+vendor/
 node_modules/
 npm-debug.log
 bower_components/
