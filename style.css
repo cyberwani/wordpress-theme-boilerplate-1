@@ -1,0 +1,15 @@
+/*
+Theme Name: WordPress Theme Boilerplate
+Theme URI: https://gitlab.com/jdoubleu/wordpress-theme-boilerplate#README
+Author: Joshua Westerheide
+Author URI: https://gitlab.com/jdoubleu
+Description: A WordPress theme boilerplate.
+Version: 1.0
+License: MIT
+License URI: https://git.jdoubleu.de/jdoubleu/wordpress-theme-boilerplate/blob/master/LICENSE
+Tags: translation-ready
+Text Domain: wordpress-theme-boilerplate
+
+This theme is based on https://gitlab.com/jdoubleu/frontend-boilerplate
+This style may be left empty and assets/dist/styles/style.css may be used instead. It only exists for wordpress.
+*/
