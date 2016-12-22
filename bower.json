@@ -1,24 +1,24 @@
 {
-	"name": "wordpress-theme-boilerplate",
-	"description": "A WordPress theme boilerplate",
-	"main": "index.js",
-	"authors": [
-		"Joshua Westerheide <dev@jdoubleu.de>"
-	],
-	"license": "MIT",
-	"keywords": [
-		"frontend",
-		"boilerplate",
-		"html",
-		"theme"
-	],
-	"homepage": "https://gitlab.com/jdoubleu/wordpress-theme-boilerplate#README",
-	"ignore": [
-		"**/.*",
-		"node_modules",
-		"bower_components",
-		"assets/vendor",
-		"test",
-		"tests"
-	]
+  "name": "wordpress-theme-boilerplate",
+  "description": "A WordPress theme boilerplate",
+  "main": "index.js",
+  "authors": [
+    "Joshua Westerheide <dev@jdoubleu.de>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "frontend",
+    "boilerplate",
+    "html",
+    "theme"
+  ],
+  "homepage": "https://gitlab.com/jdoubleu/wordpress-theme-boilerplate#README",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets/vendor",
+    "test",
+    "tests"
+  ]
 }
